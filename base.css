@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+body {
+    background: rgb(1255, 255, 255,0);
+    color: #ffffff;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;} /* End https://www.cursors-4u.com */}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1255, 255, 255,0.2);
+    font-size: 2rem;
+    color: white;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ }
+/*THIS IS WHERE YOU CAN CHANGE THE CARDS FONT COLOR*/
+ a{
+   color: white;
+   text-shadow: 2px 2px #b4a49c;
+   }
+
+ a:visited {
+   color: black;
+   }
+
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+ /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1046.cur), auto !important;} /* End https://www.cursors-4u.com */
